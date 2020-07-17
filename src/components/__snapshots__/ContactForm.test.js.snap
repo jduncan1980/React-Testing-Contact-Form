@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <form
+      data-testid="form"
+    >
+      <div>
+        <label
+          data-testid="firstNameLabel"
+          for="firstName"
+        >
+          First Name*
+        </label>
+        <input
+          data-testid="firstNameInput"
+          name="firstName"
+          placeholder="First Name"
+        />
+      </div>
+      <div>
+        <label
+          data-testid="lastNameLabel"
+          for="lastName"
+        >
+          Last Name*
+        </label>
+        <input
+          data-testid="lastNameInput"
+          name="lastName"
+          placeholder="Last Name"
+        />
+      </div>
+      <div>
+        <label
+          data-testid="emailLabel"
+          for="email"
+        >
+          Email*
+        </label>
+        <input
+          data-testid="emailInput"
+          name="email"
+          placeholder="Email"
+        />
+      </div>
+      <div>
+        <label
+          data-testid="messageLabel"
+          for="message"
+        >
+          Message (Optional)
+        </label>
+        <textarea
+          data-testid="messageTextarea"
+          name="message"
+        />
+      </div>
+      <input
+        data-testid="submitButton"
+        type="submit"
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;
