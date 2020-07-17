@@ -71,6 +71,16 @@ const ContactForm = () => {
 						data-testid='messageTextarea'
 					/>
 				</div>
+
+				<label htmlFor='terms' data-testid='checkLabel'>
+					I've Read and Agree to Terms And Conditions
+				</label>
+				<input
+					type='checkbox'
+					name='terms'
+					data-testid='check'
+					ref={register({ required: true })}
+				/>
 				{data && (
 					<pre style={{ textAlign: 'left', color: 'white' }} data-testid='pre'>
 						{JSON.stringify(data, null, 2)}

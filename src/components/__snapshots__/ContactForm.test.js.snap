@@ -59,6 +59,17 @@ exports[`renders without crashing 1`] = `
           name="message"
         />
       </div>
+      <label
+        data-testid="checkLabel"
+        for="terms"
+      >
+        I've Read and Agree to Terms And Conditions
+      </label>
+      <input
+        data-testid="check"
+        name="terms"
+        type="checkbox"
+      />
       <input
         data-testid="submitButton"
         type="submit"
